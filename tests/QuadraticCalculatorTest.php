@@ -12,5 +12,15 @@ final class QuadraticCalculatorTest extends TestCase {
             QuadraticCalculator::evaluate('2x²+2x+3', 10),
             223
         );
+
+        $this->assertEquals(
+            QuadraticCalculator::evaluate('-3', 10),
+            -3
+        );
+
+        $this->assertEquals(
+            QuadraticCalculator::evaluate('-2x-3', 10),
+            -23
+        );
     }
 }
