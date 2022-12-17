@@ -1,0 +1,17 @@
+{
+    "name": "valdaria/bazar",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Alexandre MENIGAULT",
+            "email": "alexandre.menigault@gmail.com"
+        }
+    ]
+}
