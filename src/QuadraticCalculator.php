@@ -7,8 +7,6 @@ class QuadraticCalculator {
         // Parse a quadratic function
         $re = '/^((?P<squaredValue>[+-]?\d+)x²)?((?P<xValue>[+-]?\d+)x)?((?P<oneValue>[+-]?\d+))?$/m';
         
-        $x = 10;
-        
         preg_match($re, $quadraticFunction, $matches);
         
         $result = 0;
